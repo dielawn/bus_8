@@ -1,10 +1,12 @@
-const Windows = () => {
+import React from 'react'
+import rearWindowImage from 'src/assets/window1818.jpg'
 
+const Windows = () => {
     return (
         <div>
             <h2>Windows</h2>
             <p>Rear windows</p>
-            <img src="src/assets/window1818.jpg" alt="" className="materialsVertImg" />
+            <img src={rearWindowImage} alt="Rear window 18x18" className="materialsVertImg" />
         </div>
     )
 }

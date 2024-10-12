@@ -1,10 +1,14 @@
-const Home = () => {
+import React from 'react'
+import busFrontImage from 'src/assets/bus_front.jpg'
+import busProfileImage from 'src/assets/bus_profile.jpg'
+import busRearImage from 'src/assets/bus_rear.jpg'
 
+const Home = () => {
     return (
         <>
-            <img className='busProfileVert' src="src/assets/bus_front.jpg" alt="bus front" />
-            <img className='busProfile' src="src/assets/bus_profile.jpg" alt="bus profile" />   
-            <img className='busProfileVert' src="src/assets/bus_rear.jpg" alt="bus back" />
+            <img className='busProfileVert' src={busFrontImage} alt="Bus front" />
+            <img className='busProfile' src={busProfileImage} alt="Bus profile" />   
+            <img className='busProfileVert' src={busRearImage} alt="Bus back" />
             <h1>Bus History & info</h1>
             <h2>Fleet #: Bus 8</h2>    
             <h2>2005 GMC 6.0 gas</h2>
