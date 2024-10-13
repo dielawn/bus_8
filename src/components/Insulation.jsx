@@ -5,7 +5,7 @@ import sprayInsulations from 'src/assets/spray_insulations.webp'
 
 const Insulation = () => {
     return (
-        <div>
+        <div className='marginLeft'>
            <h2>Insulation Materials</h2>
             <div className="materialsList">
                 <p>2" Formular NDX for floor</p>

@@ -1,7 +1,7 @@
 const Dimensions = () => {
 
     return (
-       <div className="dimensionsDiv">
+       <div className="dimensionsDiv marginLeft">
 
         <div className="livingSpaceDiv">
             <h2>Living space</h2>

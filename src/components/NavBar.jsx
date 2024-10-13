@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <nav className="bg-gray-800 p-4">
-      <ul className="nav">
+      <ul className="nav flexColumn">
         <li className='navLink'>
           <Link to="/" className="text-white hover:text-gray-300">
             Home
@@ -42,7 +42,7 @@ const Navbar = () => {
         </li>
         <li className='navLink'>
           <Link to="/heating" className="text-white hover:text-gray-300">
-            Insulation
+            Heating
           </Link>
         </li>
         <li className='navLink'>
