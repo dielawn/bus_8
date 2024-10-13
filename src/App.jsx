@@ -17,12 +17,13 @@ import Windows from './components/Windows';
 import Taillights from './components/Taillights';
 
 function App() {
- 
+
 
   return (
     <>
      <Router>
       <div>
+        
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

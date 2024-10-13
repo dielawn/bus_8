@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
+    const [isHidden, setIsHidden] = useState(false);
+
+    const toggleHide = () => setIsHidden(!isHidden);
+  
   return (
     <nav className="bg-gray-800 p-4">
-      <ul className="nav flexColumn">
+    {!isHidden &&
+     
+                 <ul className="nav flexColumn">
         <li className='navLink'>
           <Link to="/" className="text-white hover:text-gray-300">
             Home
@@ -71,6 +77,9 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
+  
+    }
+      <button className='navHideBtn' onClick={() => toggleHide()}>{isHidden ? 'Nav' : 'Hide'}</button>
     </nav>
   );
 };

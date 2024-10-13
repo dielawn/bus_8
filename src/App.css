@@ -1,7 +1,6 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0 auto; 
   text-align: center;
 }
 
@@ -33,15 +32,20 @@
   top: 0px;
   left: 0px;
   margin: 0;
-  padding: 30px;
+  padding: 75px 30px 30px 30px;
   background-color: whitesmoke;
-  z-index: 1;
+  z-index: 3;
 }
 
 .navLink {
   padding: 10px 50px 10px 50px;
 }
-
+.navHideBtn {
+  position: absolute;
+  left: 250px;
+  top: 15px;
+  z-index: 9;
+}
 .dimensionsDiv {
   display: flex;
   justify-content: space-between;
@@ -52,8 +56,8 @@
 .livingSpaceDiv, .bedDiv, .roofDiv, .underBusDiv {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: start;
 }
 
 .livingSpace {
@@ -381,9 +385,7 @@
 .taillightHorzImg {
   max-height: 460px;
 }
-.key {
-  padding-top: 75px;
-}
+
 .descriptionTxt {
   padding: 75px 10px 10px 20px;
 }
@@ -423,4 +425,11 @@ li {
   right: 5px;
   bottom: 155px;
   outline: solid black 1px;
+}
+
+.key {
+  padding-top: 50px;
+}
+button {
+  outline: solid 2px black;
 }
