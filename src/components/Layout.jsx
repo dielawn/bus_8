@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const Layout = () => {
-    const [isHidden, setIsHidden] = useState(false);
+    const [isHidden, setIsHidden] = useState(true);
 
     function handleShowHide() {
         setIsHidden(!isHidden)

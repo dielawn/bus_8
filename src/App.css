@@ -308,3 +308,23 @@
   text-orientation: upright;
   font-size: 10px;
 }
+
+.taillightJunc {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  position: absolute;
+  bottom: 40px;
+  left: 50px;
+}
+
+.redBox {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  margin: 5px;
+}
+
+.flex {
+  display: flex;
+}

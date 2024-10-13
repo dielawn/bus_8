@@ -14,6 +14,7 @@ import Heating from './components/Heating';
 import Layout from './components/Layout';
 import Water from './components/Water';
 import Windows from './components/Windows';
+import Taillights from './components/Taillights';
 
 function App() {
  
@@ -28,6 +29,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/demolition" element={<Demolition />} />
           <Route path="/dimensions" element={<Dimensions />} />
+          <Route path='/taillights' element={<Taillights />} /> 
           <Route path="/contact" element={<Contact />} />
           <Route path="/door" element={< Door/>} />
           <Route path="/electrical" element={< Electrical/>} />
