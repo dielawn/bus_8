@@ -8,28 +8,32 @@ import left_tail_loom from 'src/assets/left_tail_loom.jpg'
 const Taillights = () => {
 
     return (
-        <div className='marginLeft'>        
+        <div className='container'>      
+        <div className="container">
+            
+        </div>  
            <div className="flex key">
-           <div className="underBus ">
-                <div className="labelTxt leftFrame">frame</div>
-                <div className="labelTxt rightFrame">frame</div>
-                <div className="labelTxt engine">Engine</div>
-                <div className="labelTxt trans">Transmission</div>
-                
-                <div className="labelTxt fuelTank">Fuel Tank</div>
-                    <div className="livSp">
-                        {/* <div className="lfStorage">
-                            Gray Water 23g
-                        </div>
-                        <div className="storageBox frontBox">Box</div>
-                        <div className="storageBox rearBox">Box</div> */}
-                        <div className="tailPipe">tail pipe</div>
-                        <div className="taillightJunc"></div>
-                        <div className="leftWW"></div>
-                        <div className="labelTxt axle">axle</div>
-                        <div className="rightWW"></div>
+           <h2>Under bus layout</h2>
+        <div className="underBus outline">
+            <div className="labelTxt leftFrame vertText frame outline">frame</div>
+            <div className="labelTxt rightFrame vertText frame outline">frame</div>
+            <div className="labelTxt engine">Engine</div>
+            <div className="labelTxt trans">Transmission</div>
+            <div className="labelTxt fuelTank outline">Fuel Tank</div>
+                <div className="livSp outline">
+                    {/* <div className="labelTxt lfStorage grayWater">
+                        Gray Water 23g
                     </div>
-            </div>    
+                    <div className="labelTxt storageBox frontBox outline vertText">Box</div>
+                    <div className="labelTxt storageBox rearBox outline vertText">Box</div> */}
+                    <div className="labelTxt tailPipe outline">tail pipe</div>
+                    <div className="muffler outline labelTxt">muffler</div>
+                    <div className="taillightJunc"></div>
+                    <div className="wheelWell leftWW outline"></div>
+                    <div className="labelTxt axle outline">axle</div>
+                    <div className="wheelWell rightWW outline"></div>
+                </div>
+            </div>
                 <div className="key flexColumn">
                     <div className='flex alignRight'>Junction =<div className='chartBox'></div></div>
                     <div className="flex alignRight">Taillights =<div className="brownBox"></div></div>
