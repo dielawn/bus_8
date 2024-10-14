@@ -46,198 +46,20 @@
   top: 15px;
   z-index: 9;
 }
-.dimensionsDiv {
+.container {
   display: flex;
   justify-content: space-between;
   min-width: 70vw;
   flex-wrap: wrap;
+  margin-left: 150px;
 }
 
-.livingSpaceDiv, .bedDiv, .roofDiv, .underBusDiv {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: start;
-}
-
-.livingSpace {
+.outline {
   outline: solid black 1px;
-  width: 178px;
-  height: 294px;
-  position: relative;
-  margin: 50px;
-}
-
-.leftWW {
-  height: 66px;
-  width: 44px;
-  outline: solid black 1px;
-  position: absolute;
-  bottom: 108px;
-  left: 0;
-}
-
-.rightWW {
-  height: 66px;
-  width: 44px;
-  outline: solid black 1px;
-  position: absolute;
-  bottom: 108px;
-  right: 0;
-}
-
-.axle {
-  outline: solid black 1px;
-  height: 10px;
-  width: 78px;
-  position: absolute;
-  bottom: 135px;
-  left: 57px;
-}
-
-.fuelNeck {
-  height: 9px;
-  width: 9px;
-  outline: solid black 1px;
-  position: absolute;
-  bottom: 218px;
-  left: 0;
-}
-
-.widthTxtLS, .widthTxtRoof {
-  position: absolute;
-  top: -15%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.lengthTxtLS, .lengthTxtRoof {
-  position: absolute;
-  top: 50%;
-  left: -20%;
-  transform: translate(-50%, -50%);
-}
-
-.roof {
-  outline: solid black 1px;
-  width: 192px;
-  height: 360px;
-  position: relative;
-  margin: 50px;
-}
-
-.hatch {
-  outline: solid black 1px;
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  bottom: 112px;
-}
-
-.vent {
-  outline: solid black 1px;
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  bottom: 309px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.underBus {
-  outline: solid black 1px;
-  width: 192px;
-  height: 360px;
-  position: relative;
-  margin: 50px;
-}
-
-.livSp {
-  outline: solid black .5px;
-  position: absolute;
-  bottom: 0;
-  width: 192px;
-  height: 294px;
-}
-.leftFrame {
-  outline: solid black .5px;
-  position: absolute;
-  width: 10px;
-  height: 360px;
-  top: 0;
-  left: 46px;
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-}
-.rightFrame {
-  outline: solid black .5px;
-  position: absolute;
-  width: 10px;
-  height: 360px;
-  top: 0;
-  right: 46px;
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-}
-
-.lfStorage {
-  background-color: rgba(128, 128, 128, 0.37);
-  width: 45px;
-  height: 90px;
-  font-size: 10px;
-}
-
-.storageBox {
-  width: 20px;
-  height: 54px;
-  background-color: black;
-  color: #fff;
-  font-size: 10px;
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  
-}
-.frontBox {
-  position: absolute;
-  right: 0px;
-  bottom: 210px
-}
-
-.rearBox {
-  position: absolute;
-  right: 0px;
-  bottom: 30px;
-}
-
-.tailPipe {
-  position: absolute;
-  left: 0px;
-  bottom: 50px;
-  font-size: 10px;
-  transform: rotate(-45deg);
-  outline: solid black 1px;
-  width: 75px;
 }
 
 .labelTxt {
   font-size: 10px;
-}
-
-
-.trans {
-  padding-top: 10px;
-
-}
-
-.fuelTank {
-  outline: solid black 1px;
-  width: 30px;
-  height: 94px;
-  position: absolute;
-  left: 57px;
-  top: 55px
 }
 
 .materialsVertImg {
@@ -251,72 +73,6 @@
   display: flex;
 }
 
-.bed {
-  outline: solid black 1px;
-  height: 108px;
-  width: 150px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-.bedTxt {
-  position: absolute;
-  bottom: 30px;
-  transform: translate(-50%, -50%);
-  font-size: 10px;
-}
-
-.shower {
-  height: 72px;
-  width: 72px;
-  outline: solid black 1px;
-  font-size: 10px;
-}
-
-.kitchen {
-  height: 113px;
-  width: 48px;
-  outline: solid black 1px;
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  font-size: 10px;
-}
-
-.closet {
-  height: 96px;
-  width: 48px;
-  outline: solid black 1px;
-  position: absolute;
-  right: 0;
-  bottom: 109px;
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  font-size: 10px;
-}
-
-.seating {
-  height: 88px;
-  width: 48px;
-  outline: solid black 1px;
-  position: absolute;
-  right: 0;
-  top: 0;
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  font-size: 10px;
-}
-
-.storage {
-  height: 108px;
-  width: 27px;
-  outline: solid black 1px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  font-size: 10px;
-}
 
 .taillightJunc {
   width: 15px;
@@ -432,4 +188,145 @@ li {
 }
 button {
   outline: solid 2px black;
+}
+
+.rearExterior {
+  width: 380px;
+  height: 380px;
+  outline: solid black 1px;
+  border-radius: 10px 10px 0 0;
+  position: relative;
+  font-size: 15px;
+}
+
+.rearDoor {
+  width: 140px;
+  height: 252px;
+  outline: solid black 1px;
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  transform: translate(-50%);
+  border-radius: 5px;
+}
+.rearDoorWindowLwr {
+  outline: solid black 1px;
+  width: 112px;
+  height: 58px;
+  position: absolute;
+  bottom: 64px;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 10px;
+}
+.rearDoorWindowUpr {
+  outline: solid black 1px;
+  width: 112px;
+  height: 76px;
+  position: absolute;
+  bottom: 188px;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 10px;
+}
+.rearDoorHandle {
+  width: 30px;
+  outline: solid 3px black;
+  height: 1px;
+  position: absolute;
+  bottom: 152px;
+  left: 140px;
+}
+
+.rearWindow {
+  outline: solid black 1px;
+  width: 72px;
+  height: 72px;
+  border-radius: 7px;
+}
+.leftWindow {
+  position: absolute;
+  left: 15px;
+  bottom: 184px;
+}
+
+.rightWindow {
+  position: absolute;
+  right: 15px;
+  bottom: 184px;
+}
+
+.taillight, .turnlight, .stopLight, .backup {
+  outline: solid black 1px;
+  width: 20px;
+  height: 20px;
+  bottom: 132px
+}
+.leftTL {
+  position: absolute;
+  bottom: 96px;
+  left: 10%;
+  transform: translate(-50%);
+}
+.rightTL {
+  position: absolute;
+  bottom: 96px;
+  right: 10%;
+  transform: translate(-50%);
+}
+
+.leftTuL {
+  position: absolute;
+  left: 10px;
+}
+.rightTuL {
+  position: absolute;
+  right: 10px;
+}
+.leftSL {
+  position: absolute;
+  left: 35px;
+}
+.rightSL {
+  position: absolute;
+  right: 35px;
+}
+
+.leftBU {
+  position: absolute;
+  left: 60px;
+}
+.rightBU {
+  position: absolute;
+  right: 60px;
+}
+
+.rearFrame {
+  outline: solid black 1px;
+  position: absolute;
+  bottom: 34px;
+  width: 100px;
+  height: 10px;
+  left: 46px
+}
+
+.bumper {
+  outline: solid black 1px;
+  position: absolute;
+  bottom: 0;
+  height: 34px;
+  width: 100%;
+}
+
+.outline {
+  outline: solid black 1px;
+}
+
+.acEvaporator {
+  width: 114px;
+  height: 48px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 20px;
 }

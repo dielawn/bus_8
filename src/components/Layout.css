@@ -1,0 +1,48 @@
+.bed {
+    height: 108px;
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .bedTxt {
+    position: absolute;
+    bottom: 30px;
+    transform: translate(-50%, -50%);
+    font-size: 10px;
+  }
+
+  .shower {
+    height: 72px;
+    width: 72px;
+  }
+
+  .kitchen {
+    height: 113px;
+    width: 48px;
+  }
+
+  .closet {
+    height: 96px;
+    width: 48px;
+    position: absolute;
+    right: 0;
+    bottom: 109px;
+  }
+
+  .seating {
+    height: 88px;
+    width: 48px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .storage {
+    height: 108px;
+    width: 27px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }

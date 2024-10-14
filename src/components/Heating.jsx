@@ -6,7 +6,7 @@ import heatExchangers from 'src/assets/Compact-Cozy-Heat-Exchangers.jpg'
 
 const Heating = () => {
     return (
-        <div className='marginLeft'>
+        <div className='container'>
             <h2>Heating</h2>
             <div className="materialsList">
                 <p>1/2" hePex w/Oxygen barrier</p>

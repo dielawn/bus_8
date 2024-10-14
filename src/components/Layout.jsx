@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './Layout.css';
 
 const Layout = () => {
     const [isHidden, setIsHidden] = useState(true);
@@ -12,21 +13,21 @@ const Layout = () => {
              <div className="livingSpaceDiv">
             <h2>Living space layout</h2>
             <button onClick={() => handleShowHide()}>Show/Hide wheel wells / fuel neck / hatch</button>
-            <div className="livingSpace">
+            <div className="livingSpace outline">
                 <p className="widthTxtLS">89.5"</p>
                 <p className="lengthTxtLS">147"</p>
-                <div className="bed"><span className="bedTxt">Bed</span></div>
-                <div className="shower">Bathroom</div>
-                <div className="kitchen">Kitchen</div>
-                <div className="closet">Refr<br></br>Closet</div>
-                <div className="seating">Seating</div>
-                <div className="storage">Storage</div>
+                <div className="bed outline"><span className="bedTxt">Bed</span></div>
+                <div className="labelTxt shower outline">Bathroom</div>
+                <div className="labelTxt kitchen vertText outline">Kitchen</div>
+                <div className="labelTxt closet vertText outline">Refr<br></br>Closet</div>
+                <div className="labelTxt vertText seating outline">Seating</div>
+                <div className="labelTxt vertText storage outline">Storage</div>
                 {!isHidden &&
                     <>
-                    <div className="leftWW"></div>
-                    <div className="rightWW"></div>
-                    <div className="fuelNeck"></div>
-                    <div className="hatch"></div>
+                    <div className="wheelWell leftWW outline"></div>
+                    <div className="wheelWell rightWW outline"></div>
+                    <div className="fuelNeck outline"></div>
+                    <div className="hatch outline"></div>
                     </>
                 }
             </div>
@@ -34,31 +35,32 @@ const Layout = () => {
 
         <div className="underBusDiv">
             <h2>Under bus layout</h2>
-        <div className="underBus">
-            <div className="labelTxt leftFrame">frame</div>
-            <div className="labelTxt rightFrame">frame</div>
+        <div className="underBus outline">
+            <div className="labelTxt leftFrame vertText frame outline">frame</div>
+            <div className="labelTxt rightFrame vertText frame outline">frame</div>
             <div className="labelTxt engine">Engine</div>
             <div className="labelTxt trans">Transmission</div>
-            <div className="labelTxt fuelTank">Fuel Tank</div>
-                <div className="livSp">
-                    <div className="lfStorage">
+            <div className="labelTxt fuelTank outline">Fuel Tank</div>
+                <div className="livSp outline">
+                    <div className="labelTxt lfStorage grayWater">
                         Gray Water 23g
                     </div>
-                    <div className="storageBox frontBox">Box</div>
-                    <div className="storageBox rearBox">Box</div>
-                    <div className="tailPipe">tail pipe</div>
-                    <div className="leftWW"></div>
-                    <div className="labelTxt axle">axle</div>
-                    <div className="rightWW"></div>
+                    <div className="labelTxt storageBox frontBox outline vertText">Box</div>
+                    <div className="labelTxt storageBox rearBox outline vertText">Box</div>
+                    <div className="labelTxt tailPipe outline">tail pipe</div>
+                    <div className="muffler outline labelTxt">muffler</div>
+                    <div className="wheelWell leftWW outline"></div>
+                    <div className="labelTxt axle outline">axle</div>
+                    <div className="wheelWell rightWW outline"></div>
                 </div>
             </div>
         </div>
 
         <div className="roofDiv">
             <h2>Roof layout</h2>
-            <div className="roof">
-                <div className="hatch"></div>
-                <div className="vent"></div>
+            <div className="roof outline">
+                <div className="hatch outline"></div>
+                <div className="vent outline"></div>
                 <div className="solar panel1">Panel</div>
                 <div className="solar panel2">Panel</div>
                 <div className="solar panel3">Panel</div>

@@ -1,0 +1,167 @@
+.livingSpaceDiv, .bedDiv, .roofDiv, .underBusDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .livingSpace {
+    width: 178px;
+    height: 294px;
+    position: relative;
+    margin: 50px;
+  }
+
+  .wheelWell {
+    height: 66px;
+    width: 44px;
+    position: absolute;
+    bottom: 108px;
+  }
+
+  .leftWW {    
+    left: 0;
+  }
+  
+  .rightWW {
+    right: 0;
+  }
+
+  .fuelNeck {
+    height: 9px;
+    width: 9px;
+    position: absolute;
+    bottom: 218px;
+    left: 0;
+  }
+
+  .widthTxtLS, .widthTxtRoof {
+    position: absolute;
+    top: -15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .lengthTxtLS, .lengthTxtRoof {
+    position: absolute;
+    top: 50%;
+    left: -20%;
+    transform: translate(-50%, -50%);
+  }
+
+  .roof {
+    width: 192px;
+    height: 360px;
+    position: relative;
+    margin: 50px;
+  }
+  
+  .hatch {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 112px;
+  }
+
+  .vent {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 309px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .underBus {
+    width: 192px;
+    height: 360px;
+    position: relative;
+    margin: 50px;
+  }
+
+  .livSp {
+    position: absolute;
+    bottom: 0;
+    width: 192px;
+    height: 294px;
+  }
+
+  .vertText {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+  }
+
+  .frame {
+    position: absolute;
+    width: 10px;
+    height: 360px;
+    top: 0;    
+  }
+  .leftFrame { 
+    left: 46px;
+  }
+  .rightFrame { 
+    right: 46px;   
+  }
+
+  .axle {
+    height: 10px;
+    width: 78px;
+    position: absolute;
+    bottom: 135px;
+    left: 57px;
+  }
+
+  .storageBox {
+    width: 20px;
+    height: 54px;
+    position: absolute;
+    right: 0px;
+  }
+
+  .frontBox {
+    bottom: 210px
+  }
+  
+  .rearBox {
+    bottom: 30px;
+  }
+
+  .grayWater {
+    background-color: rgba(128, 128, 128, 0.37);
+    width: 45px;
+    height: 90px;
+  }
+
+  .tailPipe {
+    position: absolute;
+    left: 0px;
+    bottom: 70px;
+    transform: rotate(-45deg);
+    width: 75px;
+  }
+  .muffler {
+    position: absolute;
+    bottom: 94px;
+    width: 65px;
+    height: 30px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .trans {
+    padding-top: 10px;
+  }
+
+  .fuelTank {
+    width: 30px;
+    height: 94px;
+    position: absolute;
+    left: 57px;
+    top: 55px
+  }
+
+  
+

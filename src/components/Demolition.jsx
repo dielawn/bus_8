@@ -9,7 +9,7 @@ import chasis_saver_close_up from 'src/assets/chasis_saver_close_up.jpg'
 
 const Demolition = () => {
     return (
-        <div className='marginLeft'>
+        <div className='container marginLeft'>
             <img className="busInteriorImg" src={interior_demo1} alt="Interior demolition 1" />
             <img src={rear_demo} alt="Rear demolition" className="busInteriorImg" />
             <img src={interior_demo2} alt="Interior demolition 2" className="busInteriorImg" />
