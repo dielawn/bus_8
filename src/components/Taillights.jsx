@@ -5,6 +5,11 @@ import finished_taillights_wide from 'src/assets/finished_taillights_wide.jpg'
 import finished_taillights from 'src/assets/finished_taillights.jpg'
 import left_tail_loom from 'src/assets/left_tail_loom.jpg'
 import './Taillights.css'
+import left_tail_junc from 'src/assets/left_tail_junc.jpg'
+import right_tail_junc from 'src/assets/right_tail_junc.jpg'
+import junction from 'src/assets/junction.jpg'
+import junction2 from 'src/assets/junction2.jpg'
+
 
 const Taillights = () => {
 
@@ -143,6 +148,10 @@ const Taillights = () => {
                 <img src={taillights_right_done} alt="Right side taillight wiring" className="taillightImg"  />
                 <img src={finished_marker} alt="Finished marker light wiring" className="taillightHorzImg" />               
                 <img src={left_tail_loom} alt="Left side taillight wiring and loom routing" className="taillightImg" />
+                <img src={left_tail_junc} alt="Left taillight under bus harness" className='taillightImg' />
+                <img src={right_tail_junc} alt="Right taillight under bus harness" className="taillightImg" />
+                <img src={junction} alt='Junction with factory and trailer harness under bus' className="taillightImg" />
+                <img src={junction2} alt='Junction with factory and trailer harness under bus' className="taillightImg" />
             </div>
         </div>
     )
