@@ -27,18 +27,18 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/demolition" element={<Demolition />} />
+          {/* <Route path="/about" element={<About />} />
+          <Route path="/demolition" element={<Demolition />} /> */}
           <Route path="/dimensions" element={<Dimensions />} />
           <Route path='/taillights' element={<Taillights />} /> 
-          <Route path="/contact" element={<Contact />} />
+          {/* <Route path="/contact" element={<Contact />} />
           <Route path="/door" element={< Door/>} />
           <Route path="/electrical" element={< Electrical/>} />
           <Route path="/insulation" element={< Insulation/>} />
-          <Route path='/heating' element={<Heating />} />
+          <Route path='/heating' element={<Heating />} /> */}
           <Route path="/layout" element={< Layout/>} />
-          <Route path="/water" element={< Water/>} />
-          <Route path="/windows" element={< Windows/>} />
+          {/* <Route path="/water" element={< Water/>} /> */}
+          {/* <Route path="/windows" element={< Windows/>} /> */}
         </Routes>
       </div>
     </Router>    

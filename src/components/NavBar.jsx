@@ -16,16 +16,16 @@ const Navbar = () => {
             Home
           </Link>
         </li>
-        <li className='navLink'>
+        {/* <li className='navLink'>
           <Link to="/about" className="text-white hover:text-gray-300">
             About
           </Link>
-        </li>
-        <li className='navLink'>
+        </li> */}
+        {/* <li className='navLink'>
           <Link to="/demolition" className="text-white hover:text-gray-300">
             Demolition
           </Link>
-        </li>
+        </li> */}
         <li className='navLink'>
           <Link to="/dimensions" className="text-white hover:text-gray-300">
             Dimensions
@@ -41,41 +41,41 @@ const Navbar = () => {
             Layout
           </Link>
         </li>
-        <li className='navLink'>
+        {/* <li className='navLink'>
           <Link to="/insulation" className="text-white hover:text-gray-300">
             Insulation
           </Link>
-        </li>
-        <li className='navLink'>
+        </li> */}
+        {/* <li className='navLink'>
           <Link to="/heating" className="text-white hover:text-gray-300">
             Heating
           </Link>
-        </li>
-        <li className='navLink'>
+        </li> */}
+        {/* <li className='navLink'>
           <Link to="/water" className="text-white hover:text-gray-300">
             Water
           </Link>
-        </li>
-        <li className='navLink'>
+        </li> */}
+        {/* <li className='navLink'>
           <Link to="/electrical" className="text-white hover:text-gray-300">
             Electrical
           </Link>
-        </li>
-        <li className='navLink'>
+        </li> */}
+        {/* <li className='navLink'>
           <Link to="/windows" className="text-white hover:text-gray-300">
             Windows
           </Link>
-        </li>
-        <li className='navLink'>
+        </li> */}
+        {/* <li className='navLink'>
           <Link to="/door" className="text-white hover:text-gray-300">
             Door
           </Link>
-        </li>
-        <li className='navLink'>
+        </li> */}
+        {/* <li className='navLink'>
           <Link to="/contact" className="text-white hover:text-gray-300">
             Contact
           </Link>
-        </li>
+        </li> */}
       </ul>
   
     }

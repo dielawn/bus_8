@@ -61,11 +61,11 @@ const Layout = () => {
             <div className="roof outline">
                 <div className="hatch outline"></div>
                 <div className="vent outline"></div>
-                <div className="solar panel1">Panel</div>
-                <div className="solar panel2">Panel</div>
-                <div className="solar panel3">Panel</div>
-                <div className="solar panel4">Panel</div>
-                <div className="gland">Gland</div>
+                <div className="solar panel1 outline">Panel</div>
+                <div className="solar panel2 outline">Panel</div>
+                <div className="solar panel3 outline">Panel</div>
+                <div className="solar panel4 outline">Panel</div>
+                <div className="gland outline">Gland</div>
             </div>
         </div>
 

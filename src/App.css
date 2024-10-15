@@ -73,23 +73,6 @@
   display: flex;
 }
 
-
-.taillightJunc {
-  width: 15px;
-  height: 15px;
-  background-color: chartreuse;
-  position: absolute;
-  bottom: 40px;
-  left: 50px;
-}
-
-.redBox {
-  background-color: red;
-  width: 15px;
-  height: 15px;  
-  margin: 5px;
-}
-
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -99,234 +82,28 @@
   flex-direction: column;
 }
 
-.brownBox {
-  background-color: brown;
-  width: 15px;
-  height: 15px;  
-  margin: 5px;
-}
-.yellowBox {
-  background-color: yellow;
-  width: 15px;
-  height: 15px;  
-  margin: 5px;
-}
-.greenBox {
-  background-color: green;
-  width: 15px;
-  height: 15px;  
-  margin: 5px;
-}
-.blueBox {
-  background-color: blue;
-  width: 15px;
-  height: 15px;  
-  margin: 5px;
-}
-.chartBox {
-  background-color: chartreuse;
-  width: 15px;
-  height: 15px;  
-  margin: 5px;
-}
-
 .alignRight {
   text-align: end;
   justify-content: end;
 }
 
-.taillightImg {
-  max-width: 400px;
-}
-.taillightHorzImg {
-  max-height: 460px;
-}
-
 .descriptionTxt {
   padding: 75px 10px 10px 20px;
 }
+
 li {
   text-align: start;
-}
-.solar {
-  width: 82px;
-  height: 142px;
-  outline: solid black 1px;
-}
-
-.panel1 {
-  position: absolute;
-  top: 25px;
-}
-.panel2 {
-  position: absolute;
-  top: 25px;
-  right: 0;
-}
-
-.panel3 {
-  position: absolute;
-  bottom: -10px;
-  left: 0;
-}
-
-.panel4 {
-  position: absolute;
-  bottom: -10px;
-  right: 0;
-}
-
-.gland {
-  position: absolute;
-  right: 5px;
-  bottom: 155px;
-  outline: solid black 1px;
 }
 
 .key {
   padding-top: 50px;
 }
+
 button {
   outline: solid 2px black;
-}
-
-.rearExterior {
-  width: 380px;
-  height: 380px;
-  outline: solid black 1px;
-  border-radius: 10px 10px 0 0;
-  position: relative;
-  font-size: 15px;
-}
-
-.rearDoor {
-  width: 140px;
-  height: 252px;
-  outline: solid black 1px;
-  position: absolute;
-  left: 50%;
-  bottom: 40px;
-  transform: translate(-50%);
-  border-radius: 5px;
-}
-.rearDoorWindowLwr {
-  outline: solid black 1px;
-  width: 112px;
-  height: 58px;
-  position: absolute;
-  bottom: 64px;
-  left: 50%;
-  transform: translate(-50%);
-  border-radius: 10px;
-}
-.rearDoorWindowUpr {
-  outline: solid black 1px;
-  width: 112px;
-  height: 76px;
-  position: absolute;
-  bottom: 188px;
-  left: 50%;
-  transform: translate(-50%);
-  border-radius: 10px;
-}
-.rearDoorHandle {
-  width: 30px;
-  outline: solid 3px black;
-  height: 1px;
-  position: absolute;
-  bottom: 152px;
-  left: 140px;
-}
-
-.rearWindow {
-  outline: solid black 1px;
-  width: 72px;
-  height: 72px;
-  border-radius: 7px;
-}
-.leftWindow {
-  position: absolute;
-  left: 15px;
-  bottom: 184px;
-}
-
-.rightWindow {
-  position: absolute;
-  right: 15px;
-  bottom: 184px;
-}
-
-.taillight, .turnlight, .stopLight, .backup {
-  outline: solid black 1px;
-  width: 20px;
-  height: 20px;
-  bottom: 132px
-}
-.leftTL {
-  position: absolute;
-  bottom: 96px;
-  left: 10%;
-  transform: translate(-50%);
-}
-.rightTL {
-  position: absolute;
-  bottom: 96px;
-  right: 10%;
-  transform: translate(-50%);
-}
-
-.leftTuL {
-  position: absolute;
-  left: 10px;
-}
-.rightTuL {
-  position: absolute;
-  right: 10px;
-}
-.leftSL {
-  position: absolute;
-  left: 35px;
-}
-.rightSL {
-  position: absolute;
-  right: 35px;
-}
-
-.leftBU {
-  position: absolute;
-  left: 60px;
-}
-.rightBU {
-  position: absolute;
-  right: 60px;
-}
-
-.rearFrame {
-  outline: solid black 1px;
-  position: absolute;
-  bottom: 34px;
-  width: 100px;
-  height: 10px;
-  left: 46px
-}
-
-.bumper {
-  outline: solid black 1px;
-  position: absolute;
-  bottom: 0;
-  height: 34px;
-  width: 100%;
 }
 
 .outline {
   outline: solid black 1px;
 }
 
-.acEvaporator {
-  width: 114px;
-  height: 48px;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  top: 20px;
-}

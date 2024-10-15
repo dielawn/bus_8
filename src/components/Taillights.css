@@ -1,0 +1,52 @@
+.taillightJunc {
+    width: 15px;
+    height: 15px;
+    background-color: chartreuse;
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+  }
+  
+  .redBox {
+    background-color: red;
+    width: 15px;
+    height: 15px;  
+    margin: 5px;
+  }
+
+  .brownBox {
+    background-color: brown;
+    width: 15px;
+    height: 15px;  
+    margin: 5px;
+  }
+  .yellowBox {
+    background-color: yellow;
+    width: 15px;
+    height: 15px;  
+    margin: 5px;
+  }
+  .greenBox {
+    background-color: green;
+    width: 15px;
+    height: 15px;  
+    margin: 5px;
+  }
+  .blueBox {
+    background-color: blue;
+    width: 15px;
+    height: 15px;  
+    margin: 5px;
+  }
+  .chartBox {
+    background-color: chartreuse;
+    width: 15px;
+    height: 15px;  
+    margin: 5px;
+  }
+  .taillightImg {
+    max-width: 400px;
+  }
+  .taillightHorzImg {
+    max-height: 460px;
+  }

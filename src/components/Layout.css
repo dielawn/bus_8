@@ -46,3 +46,34 @@
     left: 0;
     bottom: 0;
   }
+
+
+  .solar {
+    width: 82px;
+    height: 142px;
+    position: absolute;  
+}
+  
+  .panel1 {    
+    top: 25px;
+  }
+  .panel2 {
+    top: 25px;
+    right: 0;
+  }
+  
+  .panel3 {
+    bottom: -10px;
+    left: 0;
+  }
+  
+  .panel4 {
+    bottom: -10px;
+    right: 0;
+  }
+  
+  .gland {
+    position: absolute;
+    right: 5px;
+    bottom: 155px;
+  }

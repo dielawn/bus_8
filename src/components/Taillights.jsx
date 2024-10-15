@@ -4,6 +4,7 @@ import finished_marker from 'src/assets/finished_marker.jpg'
 import finished_taillights_wide from 'src/assets/finished_taillights_wide.jpg'
 import finished_taillights from 'src/assets/finished_taillights.jpg'
 import left_tail_loom from 'src/assets/left_tail_loom.jpg'
+import './Taillights.css'
 
 const Taillights = () => {
 

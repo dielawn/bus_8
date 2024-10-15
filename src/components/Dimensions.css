@@ -1,3 +1,4 @@
+/* Living Area */
 .livingSpaceDiv, .bedDiv, .roofDiv, .underBusDiv {
     display: flex;
     flex-direction: column;
@@ -49,6 +50,9 @@
     transform: translate(-50%, -50%);
   }
 
+
+
+/* Roof */
   .roof {
     width: 192px;
     height: 360px;
@@ -74,6 +78,10 @@
     transform: translate(-50%, -50%);
   }
 
+
+
+
+  /* Under bus */
   .underBus {
     width: 192px;
     height: 360px;
@@ -163,5 +171,151 @@
     top: 55px
   }
 
-  
+  .rearFrame {
+    outline: solid black 1px;
+    position: absolute;
+    bottom: 34px;
+    width: 100px;
+    height: 10px;
+    left: 46px
+  }
 
+  .leafSprings {
+    position: absolute;
+    width: 8px;
+    height: 16px;
+    bottom: 175px;
+  }
+  .leftLS {    
+    left: 37px;
+  }
+  .rightLS {
+    right: 37px;
+  }
+
+  .cabLabel {
+    position: absolute;
+    top: 40px;
+    left: -25px;
+  } 
+  .livingAreaLabel {
+    position: absolute;
+    top: 80px;
+    left: -55px;
+  }
+
+
+/* Rear of bus */
+.rearExterior {
+    width: 348px;
+    height: 380px;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    font-size: 15px;
+  }
+  
+  .rearDoor {
+    width: 140px;
+    height: 252px;
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    transform: translate(-50%);
+    border-radius: 5px;
+  }
+  .rearDoorWindowLwr {
+    width: 112px;
+    height: 58px;
+    position: absolute;
+    bottom: 64px;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 10px;
+  }
+  .rearDoorWindowUpr {
+    outline: solid black 1px;
+    width: 112px;
+    height: 76px;
+    position: absolute;
+    bottom: 188px;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 10px;
+  }
+  .rearDoorHandle {
+    width: 30px;
+    outline: solid 3px black;
+    height: 1px;
+    position: absolute;
+    bottom: 152px;
+    left: 140px;
+  }
+  
+  .rearWindow {
+    width: 72px;
+    height: 72px;
+    border-radius: 7px;
+    position: absolute; 
+}
+  .leftWindow {   
+    left: 15px;
+    bottom: 184px;
+  }
+  
+  .rightWindow {
+    right: 15px;
+    bottom: 184px;
+  }
+  
+  .taillight, .turnlight, .stopLight, .backup {
+    width: 20px;
+    height: 20px;
+    bottom: 132px;
+    position: absolute;
+  }
+  .leftTL {    
+    bottom: 96px;
+    left: 25px;
+   
+  }
+  .rightTL {
+    bottom: 96px;
+    right: 25px;
+   
+  }
+  
+  .leftTuL {
+    left: 10px;
+  }
+  .rightTuL {
+    right: 10px;
+  }
+  .leftSL {
+    left: 35px;
+  }
+  .rightSL {
+    right: 35px;
+  }
+  
+  .leftBU {
+    left: 60px;
+  }
+  .rightBU {
+    right: 60px;
+  }
+
+  .bumper {
+    position: absolute;
+    bottom: 0;
+    height: 34px;
+    width: 100%;
+  }
+
+  .acEvaporator {
+    width: 114px;
+    height: 48px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 20px;
+  }
