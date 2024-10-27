@@ -41,10 +41,14 @@ const Layout = () => {
             <div className="labelTxt engine">Engine</div>
             <div className="labelTxt trans">Transmission</div>
             <div className="labelTxt fuelTank outline">Fuel Tank</div>
+            <div className="leafSprings leftLS outline"></div>
+            <div className="leafSprings rightLS outline"></div>
                 <div className="livSp outline">
                     <div className="labelTxt lfStorage grayWater">
-                        Gray Water 23g
+                        Gray Water 23g 
                     </div>
+                    <div className="grayTankInput outline"></div>
+                    <div className="grayTankDrain outline"></div>
                     <div className="labelTxt storageBox frontBox outline vertText">Box</div>
                     <div className="labelTxt storageBox rearBox outline vertText">Box</div>
                     <div className="labelTxt tailPipe outline">tail pipe</div>

@@ -1,0 +1,109 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto; 
+  text-align: center;
+}
+
+.busProfile {
+  max-width: 30%;
+}
+.busProfileVert {
+  max-width: 17%;
+}
+
+.busInteriorImg {
+  max-width: 200px;
+  margin: 10px;
+}
+.busInteriorVertImg {
+  max-height: 270px;
+  margin: 10px;
+}
+
+.marginLeft {
+  margin-left: 150px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin: 0;
+  padding: 75px 30px 30px 30px;
+  background-color: whitesmoke;
+  z-index: 3;
+}
+
+.navLink {
+  padding: 10px 50px 10px 50px;
+}
+.navHideBtn {
+  position: absolute;
+  left: 250px;
+  top: 15px;
+  z-index: 9;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  min-width: 70vw;
+  flex-wrap: wrap;
+  margin-left: 150px;
+}
+
+.outline {
+  outline: solid black 1px;
+}
+
+.labelTxt {
+  font-size: 10px;
+}
+
+.materialsVertImg {
+  max-width: 200px;
+}
+.materialsHorzImg {
+  max-height: 100px;
+}
+.materialsList {
+  margin-top: 75px;
+  display: flex;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.alignRight {
+  text-align: end;
+  justify-content: end;
+}
+
+.descriptionTxt {
+  padding: 75px 10px 10px 20px;
+}
+
+li {
+  text-align: start;
+}
+
+.key {
+  padding-top: 50px;
+}
+
+button {
+  outline: solid 2px black;
+}
+
+.outline {
+  outline: solid black 1px;
+}
+

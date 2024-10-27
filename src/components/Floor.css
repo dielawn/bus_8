@@ -1,0 +1,56 @@
+.pexHe {
+    border: solid red 3px;
+    position: absolute;
+    
+}
+
+.pexPipe {   
+    background-color: red;
+    border: none;
+}
+
+.pipe1 {
+    bottom: 90px;
+    left: 20px;
+    width: 5px;
+    height: 5px;
+}
+
+.pipe2 {
+    bottom: 90px;
+    left: 43px;
+    width: 5px;
+    height: 5px;
+}
+
+.legend {
+    align-items: center;
+    grid-template-columns: repeat(2);
+}
+
+.legendPipe {
+    height: 5px;
+    width: 5px;
+}
+
+.grid {
+    display: grid;
+}
+
+.floorCol1 {
+    grid-column: 1 / 1;
+}
+.floorCol2 {
+    grid-column: 2 / 2;
+}
+.burner {
+    width: 20px;
+    height: 40px;
+    background-color: orange;
+}
+
+.burnerLoc {
+    position: absolute;
+    left: 58px;
+    bottom: 50px
+}

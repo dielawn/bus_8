@@ -41,6 +41,11 @@ const Navbar = () => {
             Layout
           </Link>
         </li>
+        <li className='navLink'>
+          <Link to="/floor" className="text-white hover:text-gray-300">
+            Floor
+          </Link>
+        </li>
         {/* <li className='navLink'>
           <Link to="/insulation" className="text-white hover:text-gray-300">
             Insulation
@@ -61,11 +66,11 @@ const Navbar = () => {
             Electrical
           </Link>
         </li> */}
-        {/* <li className='navLink'>
+        <li className='navLink'>
           <Link to="/windows" className="text-white hover:text-gray-300">
             Windows
           </Link>
-        </li> */}
+        </li>
         {/* <li className='navLink'>
           <Link to="/door" className="text-white hover:text-gray-300">
             Door

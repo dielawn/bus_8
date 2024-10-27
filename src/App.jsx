@@ -15,6 +15,7 @@ import Layout from './components/Layout';
 import Water from './components/Water';
 import Windows from './components/Windows';
 import Taillights from './components/Taillights';
+import Floor from './components/Floor';
 
 function App() {
 
@@ -37,8 +38,9 @@ function App() {
           <Route path="/insulation" element={< Insulation/>} />
           <Route path='/heating' element={<Heating />} /> */}
           <Route path="/layout" element={< Layout/>} />
+          <Route path="/floor" element={< Floor/>} />
           {/* <Route path="/water" element={< Water/>} /> */}
-          {/* <Route path="/windows" element={< Windows/>} /> */}
+          <Route path="/windows" element={< Windows/>} />
         </Routes>
       </div>
     </Router>    

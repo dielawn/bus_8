@@ -139,8 +139,22 @@
 
   .grayWater {
     background-color: rgba(128, 128, 128, 0.37);
-    width: 45px;
-    height: 90px;
+    width: 32px;
+    height: 112px;
+  }
+
+  .grayTankInput {
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    top: 58px;
+    left: 14px;
+  }
+  .grayTankDrain {
+    position: absolute;
+    width: 6px;
+    height: 8px;
+    left: 14px;
   }
 
   .tailPipe {
@@ -172,7 +186,6 @@
   }
 
   .rearFrame {
-    outline: solid black 1px;
     position: absolute;
     bottom: 34px;
     width: 100px;
@@ -233,7 +246,6 @@
     border-radius: 10px;
   }
   .rearDoorWindowUpr {
-    outline: solid black 1px;
     width: 112px;
     height: 76px;
     position: absolute;
