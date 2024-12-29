@@ -1,14 +1,14 @@
 import React from 'react'
-import taillights_right_done from 'src/assets/taillights_right_done.jpg'
-import finished_marker from 'src/assets/finished_marker.jpg'
-import finished_taillights_wide from 'src/assets/finished_taillights_wide.jpg'
-import finished_taillights from 'src/assets/finished_taillights.jpg'
-import left_tail_loom from 'src/assets/left_tail_loom.jpg'
+import taillights_right_done from 'src/assets/taillights_right_done.webp'
+import finished_marker from 'src/assets/finished_marker.webp'
+import finished_taillights_wide from 'src/assets/finished_taillights_wide.webp'
+import finished_taillights from 'src/assets/finished_taillights.webp'
+import left_tail_loom from 'src/assets/left_tail_loom.webp'
 import './Taillights.css'
-import left_tail_junc from 'src/assets/left_tail_junc.jpg'
-import right_tail_junc from 'src/assets/right_tail_junc.jpg'
-import junction from 'src/assets/junction.jpg'
-import junction2 from 'src/assets/junction2.jpg'
+import left_tail_junc from 'src/assets/left_tail_junc.webp'
+import right_tail_junc from 'src/assets/right_tail_junc.webp'
+import junction from 'src/assets/junction.webp'
+import junction2 from 'src/assets/junction2.webp'
 
 
 const Taillights = () => {

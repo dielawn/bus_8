@@ -1,7 +1,7 @@
 import React from 'react'
-import busFrontImage from 'src/assets/bus_front.jpg'
-import busProfileImage from 'src/assets/bus_profile.jpg'
-import busRearImage from 'src/assets/bus_rear.jpg'
+import busFrontImage from 'src/assets/bus_front.webp'
+import busProfileImage from 'src/assets/bus_profile.webp'
+import busRearImage from 'src/assets/bus_rear.webp'
 
 const Home = () => {
     return (

@@ -67,6 +67,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     bottom: 112px;
+    background-color: black;
   }
 
   .vent {
@@ -76,6 +77,7 @@
     bottom: 309px;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: black;
   }
 
 

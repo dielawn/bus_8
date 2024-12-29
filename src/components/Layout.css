@@ -71,7 +71,83 @@
     bottom: -10px;
     right: 0;
   }
+  .maxair {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-size: 10px;
+    background-color: rgba(255, 0, 0, 0.315);
+
+  }
+
+  .skylight {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    transform: translate(-50%, 50%);
+    left: 50%;
+    top: 140px;
+    
+  }
+  .skylightColor {
+  background-color: rgba(255, 0, 0, 0.315);
+  }
+
+  .newVent {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);    
+    top: 10px;
+    font-size: 10px;
+  }
+  .newVentColor {
+    background-color: rgba(0, 255, 255, 0.315);
+  }
+  .square1010 {
+    width: 10px;
+    height: 10px;
+  }
+  .legend {
+    width: 100px;
+  }
+  .alignLeft {
+    justify-content: flex-start;
+  }
+  /* .solar {
+    width: 142px;
+    height: 82px;
+    position: absolute;  
+}
   
+  .panel1 {    
+    top: 25px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .panel2 {
+    top: 110px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .panel3 {
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .panel4 {
+    bottom: -60px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } */
+
+
+
   .gland {
     position: absolute;
     right: 5px;

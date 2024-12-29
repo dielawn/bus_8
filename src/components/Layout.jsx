@@ -70,9 +70,22 @@ const Layout = () => {
                 <div className="solar panel3 outline">Panel</div>
                 <div className="solar panel4 outline">Panel</div>
                 <div className="gland outline">Gland</div>
+                {/* <div className="outline maxair">Maxair</div> */}
+                <div className="outline newVent newVentColor"></div>
+                <div className="outline skylight skylightColor"></div>
             </div>
         </div>
-
+        <div className="outline legend flexColumn">
+            <div className="flex  alignLeft">
+                <div className="square1010 skylightColor"></div>
+                <div>Skylight</div>
+            </div>
+            <div className="flex  alignLeft">
+                <div className="square1010 newVentColor"></div>
+                <div>Vent</div>
+            </div>
+        </div>
+               
         </div>
     )
 }

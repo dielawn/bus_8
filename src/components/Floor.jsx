@@ -1,45 +1,97 @@
 import './Floor.css'
+import rawFloor from 'src/assets/raw_floor.webp'
+
+import chasisSaverFinal from 'src/assets/chasis_saver_finish.webp'
+import foamular from 'src/assets/owens-corning-foam-board-insulation.avif'
+import floorPipeRouting from 'src/assets/floor_pipe_routing.webp'
+import routedFloor from 'src/assets/routed_floor.webp'
+import floorDefusers from 'src/assets/floor_defusers.webp'
+import floorDefusersRear from 'src/assets/floor_defusers_rear.webp'
+import hePex from 'src/assets/hePex.webp'
+import floorPipeInstalled from 'src/assets/floor_pipes_installed.webp'
+import floorPipeInstalledRear from 'src/assets/floor_pipes_installed_rear.webp'
+import floorPipeInstalledRearCloseUp from 'src/assets/floor_pipes_installed_rear_closeup.webp'
+
+
+
+
+
 const Floor = () => {
+    const pageImages = [ 
+        {
+            image: rawFloor,
+            description: 'Got to bare floor, no rust (Montana is cool like that), cleaned and dried.',
+            isVerticle: true,            
+        }, 
+        {
+            image: chasisSaverFinal,
+            description: 'Applied 2 coats of "Chasis Saver"',
+            isVerticle: true,
+        }, 
+        {
+            image: foamular,
+            description: 'Cut & Glued 2" Foamular to floor pan. Put weight on boards and let glue cure for 24hr.',
+            isVerticle: false,
+        }, 
+        {
+            image: floorPipeRouting,
+            description: 'Traced pipe routing to work out problems before cutting. A 1 gal paint can was a perfect for a 6" turn.',
+            isVerticle: false,
+        }, 
+        {
+            image: routedFloor,
+            description: 'Routed out pipe paths. I ended up using a 5/8" router bit for  1/2" pex.',
+            isVerticle: true,
+        }, 
+        {
+            image: floorDefusers,
+            description: 'Installed diffusers',
+            isVerticle: true,
+        }, 
+        {
+            image: floorDefusersRear,
+            description: 'Installed diffusers from rear',
+            isVerticle: false,
+        }, 
+        {
+            image: hePex,
+            description: '1/2" High Efficiency Pex (hePex) used for radiant floor heating.',
+            isVerticle: false,
+        }, 
+        {
+            image: floorPipeInstalled,
+            description: 'Routed hePex trying to work out twists and tension',
+            isVerticle: false,
+        }, 
+        {
+            image: floorPipeInstalledRear,
+            description: 'Ended up taping diffuser seams and pipe turns down',
+            isVerticle: false,
+        }, 
+        {
+            image: floorPipeInstalledRearCloseUp,
+            description: 'Finished! Next is gluing down the subfloor',
+            isVerticle: true,
+        }
+    ]
 
     return (
         <div>
-             <div className="underBus outline">
-
-            <div className="labelTxt leftFrame outline frame vertText">frame</div>
-            <div className="labelTxt rightFrame outline frame vertText">frame</div>
-            <div className="labelTxt fuelTank outline">Fuel Tank</div>
-            <div className="leafSprings leftLS outline"></div>
-            <div className="leafSprings rightLS outline"></div>
-            <div className="burner outline floorCol2 burnerLoc"></div>
-                <div className="livSp outline">
-                    {/* <div className="grayWater">
-                        Gray Water 23g
-                    </div>
-                    <div className="storageBox outline frontBox vertText">Box</div>
-                    <div className="storageBox outline rearBox vertText">Box</div> */}
-                    <div className="tailPipe outline labelTxt">tail pipe</div>
-                    <div className="muffler outline labelTxt">muffler</div>
-                    <div className="wheelWell leftWW outline"></div>
-                    <div className="labelTxt axle outline">axle</div>
-                    <div className="wheelWell rightWW outline"></div>
-                    <div className="rearFrame outline"></div>
+            <div className="flex floorImgDiv">
+                {pageImages.map((image, index) => (
+                <div key={index} className="relative group">
+                    <img
+                    src={image.image}
+                    alt={image.description}
+                    className= {image.isVerticle ? 'busInteriorVertImg': 'busInteriorImg'}
+                    loading="lazy"
+                    />
+                    <p className="descTxt">
+                        {image.description}
+                    </p>
                 </div>
-            </div>
-             <div className="livingSpace outline">
-             <div className="labelTxt shower outline">Bathroom</div>
-                <div className="wheelWell leftWW outline"></div>
-                <div className="wheelWell rightWW outline"></div>
-
-
-               <div className="pexHe pexPipe pipe1"></div>
-               <div className="pexHe pexPipe pipe2"></div>
-
-               
-            </div>
-                        <div className="legend outline grid">
-                          <div className='floorCol1'>Heated Floor In & Out</div>  <div className="floorCol2 pexPipe legendPipe"></div>
-                          <div className='floorCol1'>Gas Burner</div><div className="burner outline floorCol2"></div>
-                        </div>
+                ))}
+            </div>                        
         </div>
     )
 }
