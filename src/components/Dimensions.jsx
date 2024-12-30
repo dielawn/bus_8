@@ -30,6 +30,7 @@ const Dimensions = () => {
             </div>
             <p>Length = 180" Width 96"</p>
             <p>Vent from rear = 154.5"</p>
+            <p>Hatch including frame 27x27"</p>
         </div>
 
         <div className="underBusDiv">

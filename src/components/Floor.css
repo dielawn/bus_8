@@ -1,7 +1,6 @@
-.floorImgDiv {
-    margin-top: 50px;
-}
-
 .descTxt {
     max-width: 350px;
+    min-height: 50px;
 }
+
+

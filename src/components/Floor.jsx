@@ -37,6 +37,7 @@ const Floor = () => {
             image: floorPipeRouting,
             description: 'Traced pipe routing to work out problems before cutting. A 1 gal paint can was a perfect for a 6" turn.',
             isVerticle: false,
+            rotate: true
         }, 
         {
             image: routedFloor,
@@ -45,7 +46,7 @@ const Floor = () => {
         }, 
         {
             image: floorDefusers,
-            description: 'Installed diffusers',
+            description: 'Install diffusers where ever you have a straight run of pipe.',
             isVerticle: true,
         }, 
         {
@@ -60,30 +61,32 @@ const Floor = () => {
         }, 
         {
             image: floorPipeInstalled,
-            description: 'Routed hePex trying to work out twists and tension',
+            description: 'Routed hePex trying to work out twists and tension.',
             isVerticle: false,
         }, 
         {
             image: floorPipeInstalledRear,
-            description: 'Ended up taping diffuser seams and pipe turns down',
+            description: 'Ended up taping diffuser seams and pipe turns down.',
             isVerticle: false,
         }, 
         {
             image: floorPipeInstalledRearCloseUp,
-            description: 'Finished! Next is gluing down the subfloor',
+            description: 'Finished! Next is gluing down the subfloor.',
             isVerticle: true,
         }
     ]
 
     return (
         <div>
-            <div className="flex floorImgDiv">
+            <div className="flex container">
                 {pageImages.map((image, index) => (
                 <div key={index} className="relative group">
+                    
                     <img
                     src={image.image}
                     alt={image.description}
-                    className= {image.isVerticle ? 'busInteriorVertImg': 'busInteriorImg'}
+                    className={`${image.isVerticle ? 'busInteriorVertImg': 'busInteriorImg'} 
+                        ${image.rotate ? 'rotate-90' : ''}`}
                     loading="lazy"
                     />
                     <p className="descTxt">

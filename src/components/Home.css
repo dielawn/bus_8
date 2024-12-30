@@ -1,0 +1,22 @@
+.busColageDiv {
+    position: relative;
+    background-color: gray;
+}
+.homeHeader {  
+    position: absolute;
+    top: 50px;
+   left: 20px;
+}
+
+.historyText {
+    color: white;
+}
+
+.busProfile {
+    max-width: 400px;
+    margin: 15px;
+  }
+  .busProfileVert {
+    margin: 15px;
+    max-width: 600px;
+  }

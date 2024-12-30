@@ -1,0 +1,16 @@
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0;
+    padding: 75px 30px 30px 30px;
+    background-color: whitesmoke;
+    z-index: 3;
+    width: 100%;
+  }
+  
+  

@@ -15,9 +15,7 @@ const Taillights = () => {
 
     return (
         <div className='container'>      
-        <div className="container">
-            
-        </div>  
+      
            <div className="flex key">
            <h2>Under bus layout</h2>
         <div className="underBus outline">
