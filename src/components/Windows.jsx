@@ -1,6 +1,8 @@
 import './Windows.css'
 import React from 'react'
-import rearWindowImage from 'src/assets/window1818.webp'
+import PhotoCarousel from './Carousel'
+import { v4 as uuidv4 } from 'uuid';
+import rearWindowsrc from 'src/assets/window1818.webp'
 import deletesInterior from 'src/assets/window_deletes_interior.webp'
 import bendDelete from 'src/assets/window_delete_bend.webp'
 import deletesExteriorThree from 'src/assets/winodw_deletes_three.webp'
@@ -18,94 +20,86 @@ import rearWindows from 'src/assets/windows_rear.webp'
 
 
 const Windows = () => {
-    const windowData = [
+    const windowImages = [
         {
-            image: bendDelete1,
-            description: '',
-            isVerticle: true
+            src: bendDelete1,
+            alt: 'Re-purposing the aluminum interior panels as window deletes. ',
+            isVerticle: true,
+            id: uuidv4()
         },
         {
-            image: bendDelete2,
-            description: '',
-            isVerticle: true
+            src: bendDelete2,
+            alt: 'I was able to fully bend 2 oposite sides, then crease the remaining sides and finish the bends with "flashing pliers".',
+            isVerticle: true,
+            id: uuidv4()
         },
         {
-            image: bendDelete,
-            description: '',
-            isVerticle: true
+            src: bendDelete,
+            alt: 'I made 3 bad ones before I made a good one.',
+            isVerticle: true,
+            id: uuidv4()
         },
         {
-            image: deletesInterior,
-            description: 'Using removed interior aluminum panels to make window deletes.',
-            isVerticle: true
+            src: deletesExteriorThree,
+            alt: 'Test fit before sanding and priming.',
+            isVerticle: true,
+            id: uuidv4()
+        }, 
+        {
+            src: singleDelete,
+            alt: 'Using butyl tape around the lip and self taping screws into the bus framing.',
+            isVerticle: true,
+            id: uuidv4()
         },
         {
-            image: singleDelete,
-            description: '',
-            isVerticle: true
-        },
-        {
-            image: deletesExteriorThree,
-            description: '',
-            isVerticle: true
-        },        
+            src: deletesInterior,
+            alt: 'Took most of 2 days to make and install the window deletes.',
+            isVerticle: true,
+            id: uuidv4()
+        },                 
         
         {
-            image: interiorInstalledWindow,
-            description: '',
-            isVerticle: true
+            src: interiorInstalledWindow,
+            alt: 'Window and frame installed from interior.',
+            isVerticle: true,
+            id: uuidv4()
         },
         {
-            image: rrWindow,
-            description: '',
-            isVerticle: true
+            src: lrWindow,
+            alt: 'I thought these windows would fit in the existing holes but the seals were just shy. ',
+            isVerticle: true,
+            id: uuidv4()
         },
         {
-            image: lrWindow,
-            description: '',
-            isVerticle: true
+            src: rrWindow,
+            alt: 'To fit these windows I had to drill out existing rivets and add these panels.',
+            isVerticle: true,
+            id: uuidv4()
         },
         {
-            image: interiorPass,
-            description: '',
-            isVerticle: true
+            src: rearWindows,
+            alt: 'Starting to look like something Mad Max would be proud of.',
+            isVerticle: true,
+            id: uuidv4()
         },
         {
-            image: passExteriorInstalledHildy,
-            description: '',
-            isVerticle: true
+            src: interiorPass,
+            alt: 'First 2 windows on the left will be in the "kitchen" area and the last will be in the "bathroom".',
+            isVerticle: true,
+            id: uuidv4()
         },
         {
-            image: rearWindows,
-            description: '',
-            isVerticle: true
+            src: passExteriorInstalledHildy,
+            alt: 'Hildy approves!',
+            isVerticle: true,
+            id: uuidv4()
         },
+        
     ]
 
     return (
-        <div className='container flex'>
-            <h2>Window Deletes</h2>
-            <h3>Making window deletes from interior roof panels</h3>
-            {/* <img src={rearWindowImage} alt="Rear window 18x18" className="busInteriorVertImg" /> */}
-            <ul>
-                <li>Measure each window opening individually</li>
-                <li>Add 2" to each measurement</li>
-                <li>Cut out</li>
-                <li>Cut 1x1" from each corner</li>
-                <li>Bend each 1" tab 90°</li>
-            </ul>
-            {windowData.map((image, index) => (
-                <div key={index} className=''>
-                    <img 
-                        src={image.image} 
-                        alt={image.description} 
-                        className={image.isVerticle ? 'busInteriorVertImg': 'busInteriorImg' }
-                    />
-                    <p>
-                        {image.description}
-                    </p>
-                </div>
-            ))}
+        <div>
+            <PhotoCarousel images={windowImages} />           
         </div>
     )
 }

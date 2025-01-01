@@ -7,9 +7,59 @@ import chasis_saver_start from 'src/assets/chasis_saver_start.jpg'
 import chasis_saver_finish from 'src/assets/chasis_saver_finish.jpg'
 import chasis_saver_close_up from 'src/assets/chasis_saver_close_up.jpg'
 
+import PhotoCarousel from './Carousel'
+
+
 const Demolition = () => {
+
+    const demoData = [
+        {
+            image: interior_demo1,
+            description: '',
+            isVerticle: false
+        },
+        {
+            image: rear_demo,
+            description: '',
+            isVerticle: false
+        }, 
+        {
+            image: interior_demo2,
+            description: '',
+            isVerticle: false
+        },
+        {
+            image: interior_ceiling_windows,
+            description: '',
+            isVerticle: false
+        },
+        {
+            image:raw_floor,
+            description: '',
+            isVerticle: false
+        },
+        {
+            image: chasis_saver_start,
+            description: '',
+            isVerticle: false
+        },
+        {
+            image: chasis_saver_finish,
+            description: '',
+            isVerticle: false
+        },
+        {
+            image: chasis_saver_close_up,
+            description: '',
+            isVerticle: false
+        },
+
+    ]
     return (
         <div className='container marginLeft'>
+            <PhotoCarousel 
+                data={demoData}
+            />
             <img className="busInteriorImg" src={interior_demo1} alt="Interior demolition 1" />
             <img src={rear_demo} alt="Rear demolition" className="busInteriorImg" />
             <img src={interior_demo2} alt="Interior demolition 2" className="busInteriorImg" />

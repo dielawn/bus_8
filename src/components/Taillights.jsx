@@ -1,4 +1,6 @@
 import React from 'react'
+import PhotoCarousel from './Carousel'
+import { v4 as uuidv4 } from 'uuid';
 import taillights_right_done from 'src/assets/taillights_right_done.webp'
 import finished_marker from 'src/assets/finished_marker.webp'
 import finished_taillights_wide from 'src/assets/finished_taillights_wide.webp'
@@ -13,11 +15,68 @@ import junction2 from 'src/assets/junction2.webp'
 
 const Taillights = () => {
 
+    const taillightImages = [
+        {
+            src: finished_taillights_wide,
+            alt: 'Finished taillight wiring wide shot',
+            isVerticle: false,
+            id: uuidv4()
+        },
+        {
+            src: finished_taillights,
+            alt: 'Finished taillight wiring',
+            isVerticle: false,
+            id: uuidv4()
+        },
+        {
+            src: taillights_right_done,
+            alt: 'Right side taillight wiring',
+            isVerticle: true,
+            id: uuidv4()
+        },
+        {
+            src: finished_marker,
+            alt: 'Finished marker light wiring',
+            isVerticle: false,
+            id: uuidv4()
+        },
+        {
+            src: left_tail_loom,
+            alt: 'Left side taillight wiring and loom routing',
+            isVerticle: true,
+            id: uuidv4()
+        },
+        {
+            src: left_tail_junc,
+            alt: 'Left taillight under bus harness',
+            isVerticle: true,
+            id: uuidv4()
+        },
+        {
+            src: right_tail_junc,
+            alt: 'Right taillight under bus harness',
+            isVerticle: true,
+            id: uuidv4()
+        },
+        {
+            src: junction,
+            alt: 'Junction with factory and trailer harness under bus',
+            isVerticle: true,
+            id: uuidv4()
+        },
+        {
+            src: junction2,
+            alt: 'Junction with factory and trailer harness under bus',
+            isVerticle: true,
+            id: uuidv4()
+        }
+    ]
+
     return (
         <div className='container'>      
       
            <div className="flex key">
-           <h2>Under bus layout</h2>
+           <h2>Under bus</h2>
         <div className="underBus outline">
             <div className="labelTxt leftFrame vertText frame outline">frame</div>
             <div className="labelTxt rightFrame vertText frame outline">frame</div>
@@ -48,6 +107,9 @@ const Taillights = () => {
                 </div>
                 
            </div>
+           <div className="imgDiv">
+                <PhotoCarousel images={taillightImages}/>               
+            </div>
            <div className="instructionsDiv">
            <div className='descriptionTxt'>
                 <ol>
@@ -140,17 +202,7 @@ const Taillights = () => {
            </div>
 
              
-            <div className="imgDiv">
-                <img src={finished_taillights_wide} alt="Finished taillight wiring wide shot" className="taillightHorzImg" />
-                <img src={finished_taillights} alt="Finished taillight wiring" className="taillightHorzImg" />
-                <img src={taillights_right_done} alt="Right side taillight wiring" className="taillightImg"  />
-                <img src={finished_marker} alt="Finished marker light wiring" className="taillightHorzImg" />               
-                <img src={left_tail_loom} alt="Left side taillight wiring and loom routing" className="taillightImg" />
-                <img src={left_tail_junc} alt="Left taillight under bus harness" className='taillightImg' />
-                <img src={right_tail_junc} alt="Right taillight under bus harness" className="taillightImg" />
-                <img src={junction} alt='Junction with factory and trailer harness under bus' className="taillightImg" />
-                <img src={junction2} alt='Junction with factory and trailer harness under bus' className="taillightImg" />
-            </div>
+            
         </div>
     )
 }

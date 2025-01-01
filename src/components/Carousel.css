@@ -1,0 +1,142 @@
+.carousel-container {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .carousel-wrapper {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .carousel-slides {
+    display: flex;
+    height: 100%;
+    transition: transform 0.5s ease-out;
+  }
+  
+  .carousel-slide {
+    flex: none;
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+  }
+  
+  .slide-content {
+    position: relative;
+    height: 100%;
+  }
+  
+  .horizontal-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .vertical-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .slide-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-button:hover {
+    background-color: white;
+  }
+  
+  .prev-button {
+    left: 16px;
+    background-color: whitesmoke;
+    outline: none;
+  }
+  
+  .next-button {
+    right: 16px;
+    background-color: whitesmoke;
+    outline: none;
+  }
+  
+  /* Remove the .arrow-left and .arrow-right styles and replace with: */
+.chevron-icon {
+    width: 20px;  /* adjust size as needed */
+    height: 20px;  /* adjust size as needed */
+  }
+  
+  /* Update the nav-button styles to better fit the icons */
+  .nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+    padding: 8px;  /* adjust padding to control the visible area around the icon */
+  }
+  
+  /* You can keep all other CSS styles the same */
+  
+  .carousel-dots {
+    position: absolute;
+    bottom: 48px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+    z-index: 1;
+  }
+  
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .dot.active {
+    background-color: white;
+  }
+  
+  @media (min-width: 768px) {
+    .carousel-wrapper {
+      height: 600px;
+    }
+  }
